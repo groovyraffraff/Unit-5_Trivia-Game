@@ -1,0 +1,149 @@
+.jumbotron {
+    background-color: black !important;
+    background-image: url("https://www.publicdomainpictures.net/pictures/130000/velka/seamless-starfield-texture.jpg") !important;
+        background-repeat: repeat;
+        background-size: 40%;         
+}
+.myContainer {
+    margin-top: 30px;
+    background-color: #f5d702;
+} 
+
+.myTitle {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Poller One', cursive;
+    color: #f5d702;
+    font-size: 64pt;
+   
+}
+.mySubTitle {
+    color: #66afe9;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24pt;
+}
+#myInstructions{
+ color: #66afe9;
+ font-size: 16pt;
+ text-align: center;
+}
+
+#timer{
+    color:#f5d702;
+    font-size: 42px;
+    padding: 0px 5px 0px 0px;
+    
+}
+
+#counter{
+    padding: 0px 5px 0px 15px; 
+}
+
+#timeLeft{
+    font-size: 48px;
+    display: inline-block;
+    margin-left: 20px;
+  
+}
+
+.triviaQuestion {
+    font-size: 20pt;
+    padding: 10px 0px 5px 0px;
+    color: #f5d702;
+}
+
+.answerItems {
+    padding: 0px 10px 10px 5px;
+    margin: 0px 10px 10px 20px;
+    font: 24pt;
+    color: #f5d702;
+}
+
+.answerInput {
+    margin: 10px 0px 0px 0px;
+}
+
+#allDone {
+    font-size: 52pt;
+    color: #66afe9;
+    text-align: center;
+    font-family: 'Poller One', cursive;
+}
+
+#correctA {
+    font-size: 32pt;
+    color: #66afe9;
+}
+#incorrectA {
+    font-size: 24pt;
+    color: #66afe9;
+}
+#unanswered {
+    font-size: 24pt;
+    color: #66afe9;
+}
+.incorrectScore {
+    font-size: 16pt;
+}
+#start {
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    font-size: 32pt;
+    line-height: 14pt;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+#lightsaber {
+    max-width:100%;
+    max-height:100%;
+    float: left;
+}
+#saberblade {
+    justify-content: center;
+    display: flex;
+    width: 1px;
+    height: 50%;
+    background: white;
+    z-index: 2;
+    margin-top: 15px;
+}
+
+#start:hover #saberblade {
+    width: 800px;
+    color: #ffffff;
+    border-color: #66afe9;
+    box-shadow: 10px 0px 10px 10px #66afe9;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+#end, #replay {
+    padding: 5px 5px 5px 5px;
+  /*  margin: 10px 10px 10px 10px; */
+    width: auto;
+    height: 70px;
+    background-color:#f5d702;
+    border-style: outset;
+    border-color: rgb(38, 6, 68);
+    border-radius: 5px;
+    color: black;
+    font-size: 32pt;
+    line-height: 14pt;
+    font-family: 'Poller One', cursive;
+    cursor: pointer;
+    letter-spacing: 3px;
+    text-align: center;
+    justify-content: center;
+    }
+
+    .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+
